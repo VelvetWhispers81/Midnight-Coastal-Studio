@@ -1,1 +1,75 @@
 
+export default function HomePage() {
+  return (
+    <div className="space-y-10">
+      <section>
+        <h1 className="text-3xl font-light tracking-wide">Midnight Coast Studio</h1>
+        <p className="italic mt-2">Midnight precision for daytime closings.</p>
+        <p className="mt-4">
+          Quiet, accurate contract-to-close coordination for Coastal Bend real estate agents. Files handled in the calm
+          hours—so your days stay clear and your closings stay smooth.
+        </p>
+        <div className="mt-6 flex gap-4">
+          <a href="/start-a-file">Start a File</a>
+          <a href="/pricing">View Services & Pricing</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-light">Where the coast meets the calm.</h2>
+        <p className="mt-2">
+          Midnight Coast Studio is a quiet operations studio based in the Coastal Bend. I manage your contract-to-close
+          workflow with a midnight-smooth process that keeps everything organized, on time, and stress-free.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-light">Services & Pricing</h2>
+        <ul className="mt-2 space-y-1 text-sm">
+          <li>Contract-to-Close — $450 per file</li>
+          <li>Buyer File — $350 per file</li>
+          <li>Seller File — $300 per file</li>
+          <li>Listing Management — $150 upfront + $150 at closing</li>
+          <li>Add-ons: Rush +$75 · Weekend +$50 · Document correction +$25</li>
+        </ul>
+        <a href="/pricing" className="mt-3 block text-silver text-sm">
+          View full pricing →
+        </a>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-light">How coordination works</h2>
+        <ol className="mt-2 text-sm space-y-1">
+          <li>1 — Send your file</li>
+          <li>2 — Midnight review</li>
+          <li>3 — Coordination</li>
+          <li>4 — Weekly updates</li>
+          <li>5 — Closing & archive</li>
+        </ol>
+        <a href="/workflow" className="mt-3 block text-silver text-sm">
+          See full workflow →
+        </a>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-light">Agent onboarding</h2>
+        <p className="mt-2 text-sm">
+          Intake form, welcome message, policies, pricing sheet, service agreement, and file submission instructions.
+        </p>
+        <a href="/onboarding" className="mt-3 block text-silver text-sm">
+          View onboarding →
+        </a>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-light">Send your next file</h2>
+        <p className="mt-2 text-sm">
+          When you’re ready, you can send your next executed contract and I’ll take it from there.
+        </p>
+        <a href="/contact" className="mt-3 block text-silver text-sm">
+          Contact & file details →
+        </a>
+      </section>
+    </div>
+  );
+}
