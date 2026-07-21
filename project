@@ -1,1 +1,23 @@
-
+midnight-coast-studio/
+  package.json
+  next.config.js
+  tsconfig.json
+  app/
+    layout.tsx
+    page.tsx              // Home
+    services/page.tsx
+    workflow/page.tsx
+    onboarding/page.tsx
+    pricing/page.tsx
+    contact/page.tsx
+    start-a-file/page.tsx
+    intake-form/page.tsx
+    globals.css
+  components/
+    Header.tsx
+    Footer.tsx
+    Hero.tsx
+    Section.tsx
+    ContactForm.tsx
+    StartFileForm.tsx
+    IntakeForm.tsx
