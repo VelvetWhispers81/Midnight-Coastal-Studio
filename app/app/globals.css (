@@ -1,1 +1,38 @@
+:root {
+  --midnight: #0a0a14;
+  --slate: #1a1a2e;
+  --silver: #a29bff;
+  --sand: #e6e6f8;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--midnight);
+  color: var(--sand);
+}
+
+a {
+  color: var(--sand);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--silver);
+}
+
+.bg-midnight {
+  background: var(--midnight);
+}
+
+.text-sand {
+  color: var(--sand);
+}
+
+.text-silver {
+  color: var(--silver);
+}
